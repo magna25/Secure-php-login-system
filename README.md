@@ -12,6 +12,8 @@ Password Recovery
 
 Bcrypt Hashing Algorthim 
 
+PHPMailer For Password Recovery
+
 Separate Database Class
 
 
