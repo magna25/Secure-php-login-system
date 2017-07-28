@@ -98,7 +98,9 @@
 				}
 				return "We have received your request. Follow the instructions once you receive an email";
 			}
-			throw new UserError("User already logged in.");
+			else{
+				throw new UserError("User already logged in.");
+			}
 		}
 		
 		public function logMeOut(){
