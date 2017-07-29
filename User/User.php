@@ -118,7 +118,7 @@
 		}
 		
 		public function logeMeOutOfAllDevices($id){
-			if$this->logMeOut()){
+			if($this->logMeOut()){
 				$stmt = $this->db->query("delete from user_sessions where user_id = ?",[$id]);
 			}
 		}
