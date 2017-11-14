@@ -89,7 +89,6 @@
 				
 				$user = $this->searchUser($email);
 				if($user){
-					echo "here";
 					$obj = new PHPMail;
 					$token = $this->generateToken();
 					$msg = "Please follow the link below to reset your password<br/><br/>".linkToPasswordResetPage.$token;
